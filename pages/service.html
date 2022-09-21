@@ -10,28 +10,25 @@
      <link rel="icon" type="image/x-icon" href="../img/icons/favicon.ico">
 </head>
 <body>
-     <header>
-          <div class="headerLogo">
-               <a href="../index.html"><img src="../img/pdm.png" alt="Logo De Premium Deluxe Motorsport"></a>
-          </div>
-          <nav>
-               <ul class="headerList">
-                    <li>
-                         <a href="../index.html">Inicio</a>
-                    </li>
-                    <li>
-                         <a href="../pages/catalogo.html">Catalogo</a>
-                    </li>
-                    <li>
-                         <a href="../pages/service.html">Servicios</a>
-                    </li>
-                    <li>
-                         <a href="../pages/historia.html">Historia</a>
-                    </li>
-                    <li>
-                         <a href="../pages/contacto.html">Contacto</a>
-                    </li>
-               </ul>
+     <header class="container">
+          <nav class="navbar navbar-expand-lg bg-none">
+               <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html"><img src="../img/pdm.png" alt="Logo De Premium Deluxe Motorsport" width="150px"></a>
+                    <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="toggler-icon top-bar"></span>
+                    <span class="toggler-icon middle-bar"></span>
+                    <span class="toggler-icon bottom-bar"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                         <div class="navbar-nav">
+                              <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                              <a class="nav-link" href="./catalogo.html">Catalogo</a>
+                              <a class="nav-link" href="./service.html">Servicios</a>
+                              <a class="nav-link" href="./historia.html">Historia</a>
+                              <a class="nav-link" href="./contacto.html">Contacto</a>
+                         </div>
+                    </div>
+               </div>
           </nav>
      </header>
      <main>
@@ -62,26 +59,72 @@
           </section>
      </main>
      <footer>
-          <div>
-               <div class="footerLogo">
-                    <a href="https://gta.fandom.com/es/wiki/Karin" target="_blank"><img src="../img/Karin-GTAV-Logo.png" alt="Logo De Karin"></a>
-               </div>
-               <div class="footerSocials">
-                    <div class="footerIcons">
-                         <a href="https://www.facebook.com/" target="_blank"><img src="../img/icons/facebook.png"></a>
-                         <a href="https://twitter.com/" target="_blank"><img src="../img/icons/twitter.png"></a>
-                         <a href="https://www.instagram.com/" target="_blank"><img src="../img/icons/instagram.png"></a>
-                         <a href="https://web.whatsapp.com/" target="_blank"><img src="../img/icons/whatsapp.png"></a>
-                         <a href="https://www.youtube.com/" target="_blank"><img src="../img/icons/youtube.png"></a>
+          <div class="container mt-3">
+               <div class="row p-2 bg-dark text-secondary">
+                    <div class="col-xs-12 col-md-6 col-lg-3 text-center">
+                         <a href="https://gta.fandom.com/es/wiki/Karin" target="_blank"><img src="../img/Karin-GTAV-Logo.png" alt="Logo De Karin"></a>
                     </div>
-                    <p>Siguenos en nuestras redes sociales para enterarte de todas las novedades y nuevos modelos</p>
-               </div>
-               <div class="footerDisclaimer">
-                    <p>Los modelos y versiones que muestran las imágenes pueden no corresponder a la oferta real disponible en el momento. El equipamiento varía según la versión del vehículo. Por favor consulte a su asesor de ventas por la disponibilidad.</p>
+                    <div class="col-xs-12 col-md-6 col-lg-3 text-center">
+                         <h5 class="h5 text-danger mt-2">Empresa</h5 class="h5">
+                         <div class="mt-2">
+                              <a class="text-white text-decoration-none" href="#">Sobre Nosotros</a>
+                         </div>
+                         <div class="mt-2">
+                              <a class="text-white text-decoration-none" href="#">Mision Y Vision</a>
+                         </div>
+                         <div class="mt-2">
+                              <a class="text-white text-decoration-none" href="#">Oportunidades Laborales</a>
+                         </div>
+                         <div class="mt-2">
+                              <a class="text-white text-decoration-none" href="#">Socios Comerciales</a>
+                         </div>
+                         <div class="mt-2">
+                              <a class="text-white text-decoration-none" href="#">Garantia Oficial</a>
+                              </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3 text-center">
+                         <h5 class="h5 text-danger mt-2">Legal</h5 class="h5">
+                         <div class="mt-2">
+                              <a class="text-white text-decoration-none" href="#">Terminos Y Condiciones</a>
+                         </div>
+                         <div class="mt-2">
+                              <a class="text-white text-decoration-none" href="#">Politica De Privacidad</a>
+                         </div>
+                         <div class="mt-2">
+                              <a class="text-white text-decoration-none" href="#">Derechos De Autor</a>
+                         </div>
+                         <div class="mt-2">
+                              <a class="text-white text-decoration-none" href="#">Politica De Calidad</a>
+                         </div>
+                         <div class="mt-2">
+                              <a class="text-white text-decoration-none" href="#">Otras Legislaciones</a>
+                         </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3 text-center">
+                         <h5 class="h5 text-danger mt-2">Nuestras Redes</h5 class="h5">
+                         <div class="mt-2">
+                              <a class="text-white text-decoration-none" href="https://www.facebook.com/" target="_blank">Facebook</a>
+                         </div>
+                         <div class="mt-2">
+                              <a class="text-white text-decoration-none" href="https://www.instagram.com/" target="_blank">Instagram</a>
+                         </div>
+                         <div class="mt-2">
+                              <a class="text-white text-decoration-none" href="https://twitter.com/" target="_blank">Twitter</a>
+                         </div>
+                         <div class="mt-2">
+                              <a class="text-white text-decoration-none" href="https://www.youtube.com/" target="_blank">Youtube</a>
+                         </div>
+                         <div class="mt-2">
+                              <a class="text-white text-decoration-none" href="https://web.whatsapp.com/" target="_blank">WhatsApp</a>
+                         </div>
+                    </div>
+                    <div class="col-xs-12 text-danger text-center mt-4">
+                         <p>Todos los derechos reservados © 2022 </p>
+                    </div>
                </div>
           </div>
      </footer>
-     
+
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
