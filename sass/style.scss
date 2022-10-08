@@ -1,0 +1,20 @@
+
+@import "global";
+@import "header";
+
+/* Footer */
+
+.footerimg {
+    margin-top:10px;
+}
+
+/* Catalogo */
+
+.card {
+    background-color: rgb(56, 56, 56);
+    text-align: center;
+    
+    h5  {
+        font-weight: bold;
+    }
+}
