@@ -12,7 +12,6 @@
 
 /* Efecto De Menu Hamburguesa */
 
-.navbar-toggler,
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
@@ -27,6 +26,9 @@
     height: 20px;
     position: relative;
     transition: .5s ease-in-out;
+    outline:none;
+    box-shadow: none;
+    border:0;
 
     .top-bar {
         margin-top: 0px;
