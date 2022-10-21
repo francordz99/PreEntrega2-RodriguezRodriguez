@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+/* Color De Letra */
+/* Color Del Fondo */
+/* Color De Botones - Elementos */
+/* Color Del Gradiente (Menu Hamburguesa) 1 */
+/* Color Del Gradiente (Menu Hamburguesa) 2 */
 * {
   padding: 0;
   margin: 0;
@@ -7,12 +12,13 @@
 }
 
 body {
-  background-color: rgb(24, 26, 27);
-  color: white;
+  background-color: #181a1b;
+  color: #ffffff;
 }
 
+/* Header */
 .nav-link {
-  color: #fff;
+  color: #ffffff;
   font-weight: bold;
   font-size: 22px;
 }
@@ -23,7 +29,6 @@ body {
 }
 
 /* Efecto De Menu Hamburguesa */
-.navbar-toggler,
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
@@ -37,6 +42,9 @@ body {
   height: 20px;
   position: relative;
   transition: 0.5s ease-in-out;
+  outline: none;
+  box-shadow: none;
+  border: 0;
 }
 .navbar-toggler .top-bar {
   margin-top: 0px;
@@ -88,6 +96,13 @@ body {
 /* Footer */
 .footerimg {
   margin-top: 10px;
+}
+
+footer h3 {
+  color: #ff0000;
+}
+footer div p {
+  color: #ff0000;
 }
 
 /* Catalogo */

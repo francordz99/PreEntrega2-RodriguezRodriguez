@@ -1,13 +1,15 @@
 
+/* Header */
+
 .nav-link {
-    color: #fff;
+    color: $color1;
     font-weight: bold;
     font-size: 22px;
 }
 
 .navbar-nav a:hover {
     transition: 0.25s;
-    color:#ff0000;
+    color:$color3;
 }
 
 /* Efecto De Menu Hamburguesa */
@@ -70,7 +72,7 @@
     }
 
     .toggler-icon {
-        background: linear-gradient(263deg, #ff0000 0%, rgb(38, 0, 255) 100%);
+        background: linear-gradient(263deg, $gradient1 0%, $gradient2 100%);
     }
 }
 
@@ -79,10 +81,29 @@
     position: absolute;
     height: 3px;
     width: 100%;
-    background: #ff0000;
+    background: $gradient1;
     border-radius: 1px;
     opacity: 1;
     left: 0;
     transform: rotate(0deg);
     transition: .25s ease-in-out;
 }
+
+/* Footer */
+
+.footerimg {
+    margin-top:10px;
+}
+
+footer  {
+
+    h3 {
+        color:$color3;
+}
+    div { 
+        p 
+            {
+                color:$color3;
+            }
+        }
+    }
